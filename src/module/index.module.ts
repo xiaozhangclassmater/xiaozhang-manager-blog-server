@@ -1,5 +1,5 @@
 import LoginModule from "./login.module";
 const Modules = [
-  LoginModule
+  LoginModule,
 ]
 export default Modules

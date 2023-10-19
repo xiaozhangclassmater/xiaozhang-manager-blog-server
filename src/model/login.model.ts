@@ -1,7 +1,7 @@
 import { Column, Model, Table } from "sequelize-typescript";
 
 @Table
-export class Login extends Model {
+class Login extends Model {
   id :string;
   @Column
   loginId: string;
@@ -12,3 +12,5 @@ export class Login extends Model {
   @Column({ defaultValue: true })
   token: boolean;
 }
+
+export default Login
