@@ -1,5 +1,5 @@
 import { ConfigModule } from "@nestjs/config";
-import { envGroup } from "../../constant";
+import { envGroup } from '@/constant';
 
 const envConfigOptions = ConfigModule.forRoot({
       isGlobal: true,
