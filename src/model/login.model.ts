@@ -7,7 +7,10 @@ class Login extends Model {
   loginId: string;
 
   @Column
-  LoginPwd: string;
+  loginPwd: string;
+
+  @Column
+  userId: string
 
   @Column({ defaultValue: true })
   token: boolean;
